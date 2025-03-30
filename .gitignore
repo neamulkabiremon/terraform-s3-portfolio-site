@@ -1,0 +1,26 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate
+*.tfstate.*
+
+# Ignore backup files
+*.backup
+
+# Ignore .terraform directory (holds provider binaries and init data)
+.terraform/
+.terraform.lock.hcl
+
+# Ignore zipped website source files
+*.zip
+
+# Ignore logs and crash files
+*.log
+crash.log
+
+# Ignore IDE/editor system files
+*.DS_Store
+*.swp
+.idea/
+.vscode/
+
